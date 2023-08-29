@@ -11,7 +11,9 @@ The design of the processor will involve defining the various stages of the mult
 The synthesis stage of the project will focus on translating the processor design into a circuit implementation suitable for the 2-115DE board. This stage will involve mapping the processor components to specific hardware resources and optimizing the design for performance and area constraints.
 
 The processor's basic state machine will be implemented as a Moore machine. It will take \[6:0\]op, representing the opcode of the instruction, as input and produce sets of outputs. The outputs will be defined for each state, and any output not listed in any state will be implicitly set to zero.
-![Uploading image.png…]()
+
+![image](https://github.com/maedehdehghanam/risc-v-Multi-Cycle/assets/81408402/4d3ed1f4-60b2-4d11-a334-753d6dc287ef)
+
 
 ## Contributing
 
